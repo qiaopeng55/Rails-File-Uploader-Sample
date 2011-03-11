@@ -1,0 +1,6 @@
+%h1 Folders
+
+=link_to 'Add', new_folder_path
+%ul
+  - @folders.each do |f|
+    %li= f.name
