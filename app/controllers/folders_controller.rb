@@ -18,6 +18,7 @@ class FoldersController < ApplicationController
 
   def edit
     @folder = Folder.find(params[:id])
+    @file_info = @folder.file_infos.build
   end
 
   def update

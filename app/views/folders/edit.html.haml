@@ -1,5 +1,16 @@
 %h1 Edit
+
+=render 'file_upload'
+
 =form_for(@folder) do |f|
   =f.label :name
   =f.text_field :name
   =f.submit 'Save'
+.files
+  =form_for [@folder,@file_info], :html => { :class => "upload", :multipart => true } do |f|
+    =f.file_field :file
+    %div Upload files
+
+%table.upload_files
+
+%table.download_files
