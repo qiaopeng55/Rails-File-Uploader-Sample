@@ -5,7 +5,7 @@ class FileInfosController < ApplicationController
     @file_info = @folder.file_infos.build(params[:file_info])
 
     if @file_info.save
-      render :json => {:file_path => 'whatever we want to say'},
+      render :json => {:file_path => @file_info.file.url},
              :content_type => "text/html"
     else
       render :json => {:result => 'Error!'},

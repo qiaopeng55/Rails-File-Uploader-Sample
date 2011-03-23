@@ -1,6 +1,5 @@
 <script type="text/javascript">
      $(function () {
-         alert("yo!");
   $('.upload').fileUploadUI({
         uploadTable: $('.upload_files'),
         downloadTable: $('.download_files'),
@@ -14,7 +13,7 @@
                     '<\/button><\/td><\/tr>');
         },
         buildDownloadRow: function (file) {
-            return $('<tr><td>'+file.file_path+'<\/td><\/tr>');
+            return $('<tr><td><a href="'+file.file_path+'">Link<\/a><\/td><\/tr>');
         },
     });
 });

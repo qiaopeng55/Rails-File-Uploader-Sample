@@ -38,5 +38,32 @@ module UploaderDemo
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     CarrierWave.configure do |config|
+       config.s3_access_key_id = 'AKIAJYR7746KPC5CWZ6Q'
+       config.s3_secret_access_key = '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'
+       config.s3_bucket = 'filesdemo'
+    end
+
   end
 end

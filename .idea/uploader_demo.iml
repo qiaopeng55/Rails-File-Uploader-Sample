@@ -85,6 +85,15 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] mongo (v1.2.2, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/mongo-1.2.2)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] bson (v1.2.4, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/bson-1.2.4)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] will_paginate (v3.0.pre2, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/will_paginate-3.0.pre2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] haml (v3.0.25, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/haml-3.0.25)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] carrierwave (v0.5.2, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/carrierwave-0.5.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] fog (v0.6.0, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/fog-0.6.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] json (v1.5.1, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/json-1.5.1-x86-mingw32)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] nokogiri (v1.4.4.1, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/nokogiri-1.4.4.1-x86-mingw32)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] excon (v0.5.6, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/excon-0.5.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] net-ssh (v2.1.3, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/net-ssh-2.1.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] formatador (v0.1.1, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/formatador-0.1.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] ruby-hmac (v0.4.0, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/ruby-hmac-0.4.0)" level="application" />
   </component>
 </module>
 
